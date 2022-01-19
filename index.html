@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,19 @@
 </head>
 <body>
  <header>
-<nav>
-    <img src="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" alt="">
-    <strong> to do</strong>
-</nav>
-<ul>
-    <li><a href="#">home</a></li>
-    <li><a href="about.html">about us</a></li>
-    <li><a href="#">contact us</a></li>
-</ul>
+<div><img id="logo" src="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" alt="">
+  
+</div>
+    
+
+    <div><a href="#">home</a></div>
+    <div><a href="about.html">about us</a></div>
+    <div><a href="#">contact us</a></div>
+
  </header>
    
  <main>
-
+<h1>To do list</h1>
     <table >
         <tr>
           
@@ -29,15 +30,25 @@
         </tr>
         <tr>
          
-          <td>task1</td>
-          <td>done</td>
+            <td>task1  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+            <td><h6 class="green"></h6></td>
+          </tr>
+          <tr>
+        <tr>
+         
+          <td>task1  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+          <td><h6 class="red"></h6></td>
         </tr>
         <tr>
           
-          <td>task2</td>
-          <td>not yet</td>
-          <td>task3</td>
-          <td>done</td>
+          <td>task2  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+          <td> <h6 class="red"></h6></td>
+        </tr>
+          <tr>
+
+          
+          <td>task3  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+          <td><h6 class="red"></h6></td>
         </tr>
       </table>
       
@@ -45,12 +56,12 @@
 
 
  <footer>
-     <ul>
+  
        
-     <li><a href="tel:0123">phone:0123</a></li>
-     <li> all rights reserved. copyright © 2022</li>
-     <li><a href="mail:info@todo.com">email:info@todo.com</a> </li>
-     </ul>
+    <div></div><a href="tel:0123">phone:0123</a></div>
+     <div> all rights reserved. copyright © 2022</div>
+     <div><a href="mail:info@todo.com">email:info@todo.com</a> </div>
+   
 
 
  </footer>
