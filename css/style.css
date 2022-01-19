@@ -1,0 +1,92 @@
+#logo{
+    width: 50px;   
+}
+header,footer{
+    min-height: 10vh;
+    background-color: rgba(128, 128, 128, 0.863);
+   min-width: 10%;
+   display: flex;
+    justify-content:space-around; 
+    align-items: center;
+}
+
+nav div{
+    float: left;  
+}
+div a{ min-height: 10vh;
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+}
+nav{
+   display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+main h1{
+    margin-top: 10vh;
+    text-align: center;
+}
+    
+table {
+    width: 50%;
+    position: relative;
+    left: 28%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    padding: 10px 10px;
+    border: 3px solid black;
+    text-align: center;
+  }
+  .red{
+      width: 60px;
+      height: 20px;
+      background-color: red;
+      position: relative;
+      right: -40%;
+  
+  }
+  .contact{ text-align: center;
+ color:black;
+  text-shadow: 1px 1px red;
+}
+  main h2{text-align: center;
+    text-align: center;
+    color: red;
+  }
+  section img{
+      border-radius: 200px;
+  }
+  #intro{
+      display: flex;
+      justify-content: space-between;
+  }
+  #about{
+    border: solid 1px;
+    padding: 10%;
+    text-align: center;
+  }
+  .green{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(0, 255, 76);
+    position: relative;
+    right: -40%;
+}
+footer{
+    position: relative;
+    bottom: -6vh;
+}
+.item{
+    margin-top: 5vh;
+
+    display: block;
+    text-align: center;
+  
+    display: block;
+}
+.label{
+    margin-right: 10%;
+}
