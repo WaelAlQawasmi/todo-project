@@ -24,3 +24,48 @@ alert("welcome Ms "+name);
     
  
 }
+//////////new////////
+var answer=[question1(),question2(),question3()];
+for (let index = 0; index < answer.length; index++) {
+  console.log(answer[index]) ;
+  
+}
+
+function question1() {
+  var question=prompt("are you ok?  (yous answer should  be (Yes/No)");
+  question=question.toLowerCase();
+   while (question !== "yes"&&question !== "no") {
+    
+     question=prompt("are you ok?  (yous answer should  be (Yes/No) ");
+     question=question.toLowerCase();
+  console.log(question);  }
+
+return question ;
+  
+}
+
+function question2() {
+  var question=prompt("are you here?  (yous answer should  be (Yes/No)");
+  question=question.toLowerCase();
+   while (question !== "yes"&&question !== "no") {
+    
+     question=prompt("are you ok?  (yous answer should  be (Yes/No) ");
+     question=question.toLowerCase();
+  console.log(question);  }
+
+return question ;
+  
+}
+
+function question3() {
+  var question=prompt("are you right?  (yous answer should  be (Yes/No)");
+  question=question.toLowerCase();
+   while (question !== "yes"&&question !== "no") {
+    
+     question=prompt("are you ok?  (yous answer should  be (Yes/No) ");
+     question=question.toLowerCase();
+  console.log(question);  }
+
+return question ;
+  
+}
