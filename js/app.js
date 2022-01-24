@@ -49,7 +49,7 @@ function question2() {
   question=question.toLowerCase();
    while (question !== "yes"&&question !== "no") {
     
-     question=prompt("are you ok?  (yous answer should  be (Yes/No) ");
+     question=prompt("are you here?  (yous answer should  be (Yes/No) ");
      question=question.toLowerCase();
   console.log(question);  }
 
@@ -62,7 +62,7 @@ function question3() {
   question=question.toLowerCase();
    while (question !== "yes"&&question !== "no") {
     
-     question=prompt("are you ok?  (yous answer should  be (Yes/No) ");
+     question=prompt("are you right?  (yous answer should  be (Yes/No) ");
      question=question.toLowerCase();
   console.log(question);  }
 
